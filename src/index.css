@@ -1,13 +1,98 @@
-body {
-  margin: 0;
+*{
+  
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+}
+body{
+  background-color: rgb(39, 36, 49);
+}
+.body{
+  
+  background: url(./images/image\ 3.svg);
+ position: absolute;
+  width: 100vw;
+  height: 372px;
+  left: 8px;
+  top: 2px;
+}
+.container{
+  margin-top:400px;
+  font-size:20px;
+  
+}
+.centrales{
+  display:flex;
+text-align:center;
+justify-content:center;
+align-items:center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.centrales p{
+text-align:center;
+padding: 20px;
 }
+
+ 
+ 
+
+
+.form-control{
+width: 50%;
+height: 40px;
+background-color:rgba(168, 172, 179, 0.267);
+border-radius:5px;
+
+
+}
+.btn{
+  height: 42px;
+  border-radius:5px;
+  background-color: rgba(168, 172, 179, 0.267);
+}
+
+.App{
+  justify-content: center;
+  text-align:center;
+  box-sizing: border-box;
+}
+.hi{
+  display: inline-block;
+  justify-content:space-around;
+ flex-wrap: wrap;
+ margin:auto;
+  top: 687px;
+}
+  
+  
+  
+.card {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin-right: 15px;
+ max-width: 400px;
+  height: 226px;
+  width: 400px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  border-radius: 20px;
+ background: #062226;
+ margin-bottom: 10px;
+  
+  
+}
+.card img{
+  width: 90px;
+  height: 150px;
+}
+.datos{
+  text-align:left;
+  margin-left:20px;
+  
+}
+.card:hover{
+  transform:scale(1.1);
+}
+
+
